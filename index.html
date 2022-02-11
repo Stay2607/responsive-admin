@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Responsive Admin Dashboard</title>
+		<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="navigation">
+				<ul>
+					<li>
+						<a href="#">
+							<span class="icon">
+								<ion-icon name="logo-apple"></ion-icon>
+							</span>
+							<span class="title">Brand Name</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="icon">
+								<ion-icon name="home-outline"></ion-icon>
+							</span>
+							<span class="title">Dashboard</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="icon">
+								<ion-icon name="people-outline"></ion-icon>
+							</span>
+							<span class="title">Customers</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="icon">
+								<ion-icon name="logo-wechat"></ion-icon>
+							</span>
+							<span class="title">Message</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="icon">
+								<ion-icon name="help-outline"></ion-icon>
+							</span>
+							<span class="title">Help</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="icon">
+								<ion-icon name="settings-outline"></ion-icon>
+							</span>
+							<span class="title">Settings</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="icon">
+								<ion-icon name="lock-closed-outline"></ion-icon>
+							</span>
+							<span class="title">Password</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="icon">
+								<ion-icon name="log-out-outline"></ion-icon>
+							</span>
+							<span class="title">Sign Out</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- main -->
+			<div class="main">
+				<div class="topbar">
+					<div class="toggle">
+						<ion-icon name="menu-outline"></ion-icon>
+					</div>
+					<!-- search -->
+					<div class="search">
+						<label>
+							<input type="text" placeholder="Search here" />
+							<ion-icon name="search-outline"></ion-icon>
+						</label>
+					</div>
+					<!-- userImg -->
+					<div class="user">
+						<img src="user.jpg" alt="" />
+					</div>
+				</div>
+				<!-- cards -->
+				<div class="cardBox">
+					<div class="card">
+						<div>
+							<div class="numbers">1,504</div>
+							<div class="cardName">Daily Views</div>
+						</div>
+						<div class="iconBx">
+							<ion-icon name="eye-outline"></ion-icon>
+						</div>
+					</div>
+					<div class="card">
+						<div>
+							<div class="numbers">80</div>
+							<div class="cardName">Sales</div>
+						</div>
+						<div class="iconBx">
+							<ion-icon name="cart-outline"></ion-icon>
+						</div>
+					</div>
+					<div class="card">
+						<div>
+							<div class="numbers">285</div>
+							<div class="cardName">Comments</div>
+						</div>
+						<div class="iconBx">
+							<ion-icon name="chatbubble-outline"></ion-icon>
+						</div>
+					</div>
+					<div class="card">
+						<div>
+							<div class="numbers">Rp600.000</div>
+							<div class="cardName">Earning</div>
+						</div>
+						<div class="iconBx">
+							<ion-icon name="cash-outline"></ion-icon>
+						</div>
+					</div>
+				</div>
+				<div class="details">
+					<!-- order details list -->
+					<div class="recentOrders">
+						<div class="cardHeader">
+							<h2>Recent Orders</h2>
+							<a href="#" class="btn">View All</a>
+						</div>
+						<table>
+							<thead>
+								<tr>
+									<td>Name</td>
+									<td>Price</td>
+									<td>Payment</td>
+									<td>Status</td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Hard disk Toshiba 1TB</td>
+									<td>Rp685.000</td>
+									<td>Paid</td>
+									<td>
+										<span class="status delivered"
+											>Delivered</span
+										>
+									</td>
+								</tr>
+								<tr>
+									<td>Hard disk Seagate 2TB</td>
+									<td>Rp600.000</td>
+									<td>Paid</td>
+									<td>
+										<span class="status delivered"
+											>Delivered</span
+										>
+									</td>
+								</tr>
+								<tr>
+									<td>Thinkpad Yoga 370</td>
+									<td>Rp7.000.000</td>
+									<td>Paid</td>
+									<td>
+										<span class="status pending"
+											>Pending</span
+										>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Asus Vivobook 14 K413FQ core i7 MX350
+										8GB 512GB
+									</td>
+									<td>Rp12.200.000</td>
+									<td>Paid</td>
+									<td>
+										<span class="status delivered"
+											>Delivered</span
+										>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Flashdisk SanDisk 32GB USB 2.0 Cruzer
+										Blade CZ50
+									</td>
+									<td>Rp52.000</td>
+									<td>Paid</td>
+									<td>
+										<span class="status return"
+											>Return</span
+										>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										SSD Solid State Drive V-GeN 1TB SATA lll
+									</td>
+									<td>Rp1.512.000</td>
+									<td>Paid</td>
+									<td>
+										<span class="status pending"
+											>Pending</span
+										>
+									</td>
+								</tr>
+								<tr>
+									<td>SSD M.2 Sata V-GeN 256GB</td>
+									<td>Rp482.000</td>
+									<td>Paid</td>
+									<td>
+										<span class="status return"
+											>Return</span
+										>
+									</td>
+								</tr>
+								<tr>
+									<td>WD Green SSD 240GB Sata 3 2.5"</td>
+									<td>Rp525.000</td>
+									<td>Paid</td>
+									<td>
+										<span class="status return"
+											>Return</span
+										>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Xiaomi Redmi Note 10 Pro (8GB+128GB)
+									</td>
+									<td>Rp3.899.000</td>
+									<td>Due</td>
+									<td>
+										<span class="status inprogress"
+											>In Progress</span
+										>
+									</td>
+								</tr>
+								<tr>
+									<td>Xiaomi Redmi Note 10 5G (4G/128GB)</td>
+									<td>Rp2.899.000</td>
+									<td>Paid</td>
+									<td>
+										<span class="status return"
+											>Return</span
+										>
+									</td>
+								</tr>
+								<tr>
+									<td>POCO X3 GT 8GB+256GB</td>
+									<td>Rp4.799.000</td>
+									<td>Paid</td>
+									<td>
+										<span class="status pending"
+											>Pending</span
+										>
+									</td>
+								</tr>
+								<tr>
+									<td>OPPO Reno6 8/128GB</td>
+									<td>Rp5.199.000</td>
+									<td>Due</td>
+									<td>
+										<span class="status inprogress"
+											>In Progress</span
+										>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Xiaomi Mi TV 4 55" Bezel-less 4K Smart
+										TV Quantum LED Display
+									</td>
+									<td>Rp8.099.000</td>
+									<td>Due</td>
+									<td>
+										<span class="status inprogress"
+											>In Progress</span
+										>
+									</td>
+								</tr>
+								<tr>
+									<td>Xiaomi 11T (8GB+256GB)</td>
+									<td>Rp5.999.000</td>
+									<td>Paid</td>
+									<td>
+										<span class="status return"
+											>Return</span
+										>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<!-- New Customers -->
+					<div class="recentCustomers">
+						<div class="cardHeader">
+							<h2>Recent Customers</h2>
+							<a href="#" class="btn">View All</a>
+						</div>
+						<table>
+							<tr>
+								<td width="60px">
+									<div class="imgBx">
+										<img
+											src="img1.jpg"
+											class="img"
+											alt=""
+										/>
+									</div>
+								</td>
+								<td>
+									<h4>David<br /><span>Italy</span></h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="60px">
+									<div class="imgBx">
+										<img
+											src="img2.jpg"
+											class="img"
+											alt=""
+										/>
+									</div>
+								</td>
+								<td>
+									<h4>Dave<br /><span>Spain</span></h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="60px">
+									<div class="imgBx">
+										<img
+											src="img3.jpg"
+											class="img"
+											alt=""
+										/>
+									</div>
+								</td>
+								<td>
+									<h4>Nina<br /><span>USA</span></h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="60px">
+									<div class="imgBx">
+										<img
+											src="img4.jpg"
+											class="img"
+											alt=""
+										/>
+									</div>
+								</td>
+								<td>
+									<h4>Hana<br /><span>Singapore</span></h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="60px">
+									<div class="imgBx">
+										<img
+											src="img5.jpg"
+											class="img"
+											alt=""
+										/>
+									</div>
+								</td>
+								<td>
+									<h4>Drake<br /><span>France</span></h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="60px">
+									<div class="imgBx">
+										<img
+											src="img6.jpg"
+											class="img"
+											alt=""
+										/>
+									</div>
+								</td>
+								<td>
+									<h4>Dave<br /><span>Brunei</span></h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="60px">
+									<div class="imgBx">
+										<img
+											src="img7.jpg"
+											class="img"
+											alt=""
+										/>
+									</div>
+								</td>
+								<td>
+									<h4>Shana<br /><span>Laos</span></h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="60px">
+									<div class="imgBx">
+										<img
+											src="img8.jpg"
+											class="img"
+											alt=""
+										/>
+									</div>
+								</td>
+								<td>
+									<h4>Julian<br /><span>England</span></h4>
+								</td>
+							</tr>
+							<tr>
+								<td width="60px">
+									<div class="imgBx">
+										<img
+											src="img9.jpg"
+											class="img"
+											alt=""
+										/>
+									</div>
+								</td>
+								<td>
+									<h4>Danice<br /><span>China</span></h4>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			<script
+				type="module"
+				src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+			></script>
+			<script
+				nomodule
+				src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+			></script>
+			<script>
+				// MenuToggle
+				let toggle = document.querySelector(".toggle");
+				let navigation = document.querySelector(".navigation");
+				let main = document.querySelector(".main");
+
+				toggle.onclick = function () {
+					navigation.classList.toggle("active");
+					main.classList.toggle("active");
+				};
+
+				// add hovered class in selected list item
+				let list = document.querySelectorAll(".navigation li");
+
+				function activateLink() {
+					list.forEach((item) => item.classList.remove("hovered"));
+					this.classList.add("hovered");
+				}
+				list.forEach((item) =>
+					item.addEventListener("mouseover", activateLink)
+				);
+			</script>
+		</div>
+	</body>
+</html>
